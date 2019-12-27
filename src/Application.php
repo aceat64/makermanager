@@ -104,5 +104,6 @@ class Application extends BaseApplication
         $this->addPlugin('Migrations');
 
         // Load more plugins here
+        $this->addPlugin('IdeHelper');
     }
 }

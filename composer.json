@@ -1,20 +1,22 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "https://cakephp.org",
+    "name": "dallas-makerspace/makermanager",
+    "description": "DMS Membership Management System",
+    "homepage": "https://github.com/Dallas-Makerspace/makermanager",
     "type": "project",
-    "license": "MIT",
+    "license": "BSD-2.0",
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.3",
         "cakephp/cakephp": "^4.0",
         "cakephp/migrations": "^3.0",
         "cakephp/plugin-installer": "^1.0",
-        "mobiledetect/mobiledetectlib": "2.*"
+        "mobiledetect/mobiledetectlib": "2.*",
+        "symfony/process": "^5.0"
     },
     "require-dev": {
         "cakephp/bake": "^2.0",
         "cakephp/cakephp-codesniffer": "^4.0",
         "cakephp/debug_kit": "^4.0",
+        "dereuromark/cakephp-ide-helper": "^1.0",
         "josegonzalez/dotenv": "3.*",
         "phpunit/phpunit": "^8.0",
         "psy/psysh": "@stable"

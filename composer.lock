@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0392e59f772501028c4058d024901df3",
+    "content-hash": "09ef86b4441ef89acec3cca7eb0ce995",
     "packages": [
         {
             "name": "aura/intl",
@@ -1246,6 +1246,55 @@
             "time": "2019-11-27T16:25:15+00:00"
         },
         {
+            "name": "symfony/process",
+            "version": "v5.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "ea2dc31b59d63abd9bc2356ac72eb7b3f3469f0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/ea2dc31b59d63abd9bc2356ac72eb7b3f3469f0e",
+                "reference": "ea2dc31b59d63abd9bc2356ac72eb7b3f3469f0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-12-10T11:06:55+00:00"
+        },
+        {
             "name": "symfony/service-contracts",
             "version": "v2.0.1",
             "source": {
@@ -1996,6 +2045,72 @@
                 "performance"
             ],
             "time": "2019-11-06T16:40:04+00:00"
+        },
+        {
+            "name": "dereuromark/cakephp-ide-helper",
+            "version": "1.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dereuromark/cakephp-ide-helper.git",
+                "reference": "828bdc5b57f050d0abc69b47c019c12f011506ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-ide-helper/zipball/828bdc5b57f050d0abc69b47c019c12f011506ef",
+                "reference": "828bdc5b57f050d0abc69b47c019c12f011506ef",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/bake": "^2.0",
+                "cakephp/cakephp": "^4.0",
+                "php": ">=7.2",
+                "sebastian/diff": "^3.0",
+                "squizlabs/php_codesniffer": "^3.5.2"
+            },
+            "require-dev": {
+                "dereuromark/cakephp-tools": "dev-cake4 as 4.0.0",
+                "fig-r/psr2r-sniffer": "dev-master"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "IdeHelper\\": "src/",
+                    "IdeHelper\\Test\\Fixture\\": "tests/Fixture/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Scherer",
+                    "homepage": "https://www.dereuromark.de",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Other contributors",
+                    "homepage": "https://github.com/dereuromark/cakephp-ide-helper/graphs/contributors",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CakePHP IdeHelper Plugin to improve auto-completion",
+            "homepage": "https://github.com/dereuromark/cakephp-ide-helper/",
+            "keywords": [
+                "annotations",
+                "autocomplete",
+                "cakephp",
+                "ide",
+                "phpdoc",
+                "phpstorm",
+                "plugin"
+            ],
+            "time": "2019-12-23T13:16:11+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4181,55 +4296,6 @@
             "time": "2019-11-18T17:27:11+00:00"
         },
         {
-            "name": "symfony/process",
-            "version": "v5.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "ea2dc31b59d63abd9bc2356ac72eb7b3f3469f0e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ea2dc31b59d63abd9bc2356ac72eb7b3f3469f0e",
-                "reference": "ea2dc31b59d63abd9bc2356ac72eb7b3f3469f0e",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Process\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Process Component",
-            "homepage": "https://symfony.com",
-            "time": "2019-12-10T11:06:55+00:00"
-        },
-        {
             "name": "symfony/var-dumper",
             "version": "v5.0.2",
             "source": {
@@ -4525,7 +4591,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": ">=7.3"
     },
     "platform-dev": []
 }
